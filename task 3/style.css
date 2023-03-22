@@ -1,0 +1,60 @@
+.container {
+    position:absolute;
+    top : 50%;
+    left: 50%;
+    transform : translate(-50%,-50%);
+    background:  url(image/https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg)
+}
+  h1 {
+    font-size: 3rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #311515;
+    font-size: 1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  select {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    justify-content:center;
+    border: 1px solid #e9acac;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #output {
+    margin-top: 2rem;
+    font-size: 2rem;
+    position : center;
+  }

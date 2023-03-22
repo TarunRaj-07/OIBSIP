@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>TEMPERATURE CONVERTER</h2>
+      <form>
+        <style>
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f0f0f0df;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              padding: 12px 16px;
+              z-index: 1;
+            }
+            
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+            </style>
+            </head>
+            <body>
+                    
+         <label for="unit">TEMPERATURE</label>
+       <input type="number" id="input" name="input">
+        <label for="unit">DEGREE</label>
+        <select id="unit" name="unit">
+          <option value="Celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
+        <button type="button" onclick="convert()">Convert</button>
+      </form>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
